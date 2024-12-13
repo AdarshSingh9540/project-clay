@@ -39,7 +39,7 @@ export function ProfileCard({ profile }: ProfileCardProps) {
                 src={profile.logoUrl}
                 alt={`${profile.institution} logo`}
                 fill
-                className="pl-12"
+                className="p-4 lg:p-0 lg:pl-12"
               />
             </div>
           </div>
