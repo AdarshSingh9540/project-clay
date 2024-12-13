@@ -34,7 +34,7 @@ export function ProfileCard({ profile }: ProfileCardProps) {
               <p className="text-sm text-muted-foreground">{profile.title}</p>
             </div>
             <p className="text-base h-16">{profile.institution}</p>
-            <div className="h-24 lg:h-28 lg:px-4 relative w-[8rem] lg:w-[10rem] aspect-square lg:py-2">
+            <div className="h-24 lg:h-28 lg:px-4 relative w-[9rem] lg:w-[10rem] aspect-square lg:py-2">
               <Image
                 src={profile.logoUrl}
                 alt={`${profile.institution} logo`}
